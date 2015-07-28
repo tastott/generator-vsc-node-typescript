@@ -1,18 +1,22 @@
 {
-  "name": "generator-vsc-node-typescript",
-  "version": "1.0.0",
-  "description": "Visual Studio Code project for NodeJs with TypeScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "yeoman-generator"
-  ],
-  "author": "Tim Stott",
-  "license": "ISC",
-  "dependencies": {
-    "yeoman-generator": "^0.20.2",
-    "yosay": "^1.0.5"
-  }
+    "name": "generator-vsc-node-typescript",
+    "version": "1.0.1",
+    "description": "Visual Studio Code project for NodeJs with TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "author": "Tim Stott",
+    "license": "ISC",
+    "dependencies": {
+        "yeoman-generator": "^0.20.2",
+        "yosay": "^1.0.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tastott/generator-vsc-node-typescript.git"
+    }
 }

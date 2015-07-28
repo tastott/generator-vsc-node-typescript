@@ -6,3 +6,5 @@ build/
 dist/
 /app/templates/_app-test.js
 /app/templates/_app.js
+*.js
+/app/index.js

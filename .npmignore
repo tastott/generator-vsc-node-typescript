@@ -1,0 +1,7 @@
+index.ts
+index.js.map
+typings
+.settings
+tsconfig.json
+templates/*.js
+templates/*.js.map
