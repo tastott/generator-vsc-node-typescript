@@ -25,6 +25,7 @@ export = yeoman.generators.Base.extend({
 			this.directory('test');
 			this.template('_package.json', 'package.json',this.parameters);
 			this.template('_settings.json', '.settings/settings.json');
+			this.template('_launch.json', '.settings/launch.json');
 			this.template('_tasks.json', '.settings/tasks.json');
 			this.template('_tsconfig.json', 'tsconfig.json');
 			this.template('_app.ts', 'app.ts', this.parameters);
