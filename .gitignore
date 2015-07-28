@@ -1,7 +1,8 @@
 node_modules/
 bower_components/
 *.log
-*.js
 *.js.map
 build/
 dist/
+/app/templates/_app-test.js
+/app/templates/_app.js
