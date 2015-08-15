@@ -3,5 +3,8 @@
 		"module": "commonjs",
 		"sourceMap": true,
 		"target": "ES5"
-	}
+	},
+	"files": [
+		"app/index.ts"
+	]
 }

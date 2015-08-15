@@ -5,9 +5,10 @@
 	  
 	"author": "author",
 
-	"main": "app.js",
+	"main": "<%= nodemain %>",
 
   	"scripts" : {
-    	"test": "node_modules\\.bin\\mocha --recursive"
+    	"test": "node_modules\\.bin\\mocha --recursive",
+		"start": "<%= nodestart %>"
 	}
 }
