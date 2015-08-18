@@ -56,7 +56,7 @@ export = yeoman.generators.Base.extend({
 	},
 	install: function() {
 		this.npmInstall(['mocha', 'chai'], {saveDev: true});
-		if(this.parameters.nw) this.npmInstall(['nw', 'angular', 'angular-route', 'bootstrap']);
+		if(this.parameters.nw) this.npmInstall(['nw', 'angular', 'angular-route', 'bootstrap'], {save: true});
 		
 	},
 	end: function() {
