@@ -1,6 +1,6 @@
 {
   "name": "generator-vsc-node-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Visual Studio Code project for NodeJs with TypeScript",
   "main": "index.js",
   "scripts": {
