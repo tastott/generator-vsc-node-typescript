@@ -43,6 +43,7 @@ export = yeoman.generators.Base.extend({
 			this.template('_tsconfig.json', 'tsconfig.json');
 			this.template('_app.ts', 'app.ts', this.parameters);
 			this.template('_app-test.ts', 'test/app.ts', this.parameters);
+			this.template('_tslint.json', 'tslint.json');
 			
 			if(this.parameters.nw){
 				this.directory('controllers');
